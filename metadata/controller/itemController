@@ -1,0 +1,237 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "itemController",
+        "views": [
+            "landingPage"
+        ]
+    },
+    "name": "MyController",
+    "designerId": "a108f6d0-8cd5-4111-8d0f-f86e3ff19be9",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#buyItemButton",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "Ext.Button",
+                "fn": "onBuyItemButtonTap",
+                "implHandler": [
+                    "var view = this.getLandingPage();",
+                    "var merchant = view.down('#merchantField').getValue();",
+                    "var description = view.down('#descriptionField').getValue();",
+                    "var price = view.down('#priceField').getValue();",
+                    "",
+                    "this.checkoutWithItem(merchant, price, description);"
+                ],
+                "name": "tap"
+            },
+            "name": "onBuyItemButtonTap",
+            "designerId": "2d94294b-a8e5-44ae-a322-e82e42d24700"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#generateItemButton",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "Ext.Button",
+                "fn": "onGenerateItemButtonTap",
+                "implHandler": [
+                    "console.log(\"Generating item...\");",
+                    "",
+                    "var merchantName = this.getMerchantName();",
+                    "var itemPrice = this.getItemPrice();",
+                    "var description = this.getDescription();",
+                    "",
+                    "this.setFormValues(merchantName, itemPrice, description);"
+                ],
+                "name": "tap"
+            },
+            "name": "onGenerateItemButtonTap",
+            "designerId": "360d30c6-3310-41a9-8455-09f25cbed6e5"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getDescription",
+                "implHandler": [
+                    "var potentialDescriptions = [",
+                    "    \"Simply the best there is!\",",
+                    "    \"Not a single one like it.\",",
+                    "    \"The greatest you've ever seen!\",",
+                    "    \"Exactly what you need.\"",
+                    "];",
+                    "",
+                    "return this.getRandomValue(potentialDescriptions);"
+                ]
+            },
+            "name": "getDescription",
+            "designerId": "ca4f35c5-8454-4036-8fa9-fa5fece84c77"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getItemPrice",
+                "implHandler": [
+                    "return Math.floor((Math.random()* 10000));"
+                ]
+            },
+            "name": "getItemPrice",
+            "designerId": "81465716-aeef-4274-9768-1fe6427230b4"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getMerchantName",
+                "implHandler": [
+                    "var potentialNames = [",
+                    "    \"Merchant1\",",
+                    "    \"Merchant2\",",
+                    "    \"Merchant3\",",
+                    "    \"Merchant4\",",
+                    "    \"Merchant5\",",
+                    "    \"Merchant6\"",
+                    "];",
+                    "",
+                    "return this.getRandomValue(potentialNames);"
+                ]
+            },
+            "name": "getMerchantName",
+            "designerId": "b92f1715-0f23-4ea3-ae35-172fce389137"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "array"
+                ],
+                "fn": "getRandomValue",
+                "implHandler": [
+                    "var index = Math.round(Math.random() * (array.length - 1));",
+                    "return array[index];"
+                ]
+            },
+            "name": "getRandomValue",
+            "designerId": "c6f3958a-ceab-45bf-9c15-a2bf9c9c2012"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "name, price, desc"
+                ],
+                "fn": "setFormValues",
+                "implHandler": [
+                    "var view = this.getLandingPage();",
+                    "var priceField = view.down('#priceField');",
+                    "var merchantField = view.down('#merchantField');",
+                    "var descriptionField = view.down('#descriptionField');",
+                    "",
+                    "priceField.setValue(price);",
+                    "merchantField.setValue(name);",
+                    "descriptionField.setValue(desc);"
+                ]
+            },
+            "name": "setFormValues",
+            "designerId": "2a575f3f-37b2-4439-8b21-a14118cf829a"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "landingPage",
+                "selector": "landingpage"
+            },
+            "name": "landingPage",
+            "designerId": "16ff1701-b2a9-4875-be81-7693a65aa862"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "merchant, price, description"
+                ],
+                "fn": "checkoutWithItem",
+                "implHandler": [
+                    "var handler = StripeCheckout.configure({",
+                    "    shippingAddress: false,",
+                    "//     key: PUBLIC_STRIPE_KEY,",
+                    "    address: true,",
+                    "    amount: price,",
+                    "    currency: 'usd',",
+                    "    name: merchant,",
+                    "    description: description,",
+                    "    panelLabel: 'Checkout',",
+                    "    allowRememberMe: true,",
+                    "    token: function(token, args){",
+                    "        console.log(\"In token function.\");",
+                    "        console.log(\"Token from transaction: \", token);",
+                    "        console.log(\"Our args: \", args);",
+                    "    }",
+                    "});",
+                    "",
+                    "handler.open();"
+                ]
+            },
+            "name": "checkoutWithItem",
+            "designerId": "04cf9b52-18e9-4431-a6aa-77723d716561"
+        }
+    ]
+}

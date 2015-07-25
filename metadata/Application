@@ -1,0 +1,19 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "itemController"
+        ],
+        "name": "StripeCheckoutSample",
+        "views": [
+            "landingPage"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

@@ -1,0 +1,170 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "landingpage",
+        "designer|userClassName": "landingPage",
+        "itemId": "landingPage"
+    },
+    "name": "MyContainer",
+    "designerId": "eca3b1ac-1954-4224-816b-a4a9ddd9e599",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "headlineContainer",
+                "margin": "10% 0 0 0"
+            },
+            "name": "MyContainer",
+            "designerId": "d341f5c0-fae3-4ef2-8b02-69e43e8962c0",
+            "cn": [
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<center><span style=\"font-size:24px; font-weight:bold;\">Stripe Checkout Sample</span></center>",
+                        "itemId": "headline",
+                        "margin": null
+                    },
+                    "name": "MyLabel",
+                    "designerId": "8df2a3c4-854b-4f16-b352-91b579ca5663"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "html": "The purpose of this application is to simply test the functionality of Stripe Checkout. <br><br> To get started, click on \"Generate item\" to create a sample product to transact with.",
+                "itemId": "instructionContainer",
+                "margin": "10% 0 0 0"
+            },
+            "name": "MyContainer1",
+            "designerId": "545b78d9-240c-4a2b-8af0-3679b6ee5dde"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "itemGeneratorContainer"
+            },
+            "name": "MyContainer2",
+            "designerId": "c131c4e3-d5e9-4b06-a28f-063ad4ffbc3a",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "generateItemButton",
+                        "margin": "10% 0 0 0 ",
+                        "text": "Generate Item"
+                    },
+                    "name": "MyButton",
+                    "designerId": "8c9633c0-9fa2-4775-89e1-4f0d820f5631"
+                },
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 200,
+                        "itemId": "itemDetails"
+                    },
+                    "name": "MyFormPanel",
+                    "designerId": "21aebd73-f273-4884-9ed8-336c01ec7f11",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "priceField",
+                                "label": "Price (in cents)",
+                                "labelWidth": "50%"
+                            },
+                            "name": "MyNumberField",
+                            "designerId": "e0550995-b430-4d84-89a7-381dd8fc47c5"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "merchantField",
+                                "label": "Merchant",
+                                "labelWidth": "50%"
+                            },
+                            "name": "MyTextField",
+                            "designerId": "44afcf56-89bb-4b6b-b3cc-32d6c4ce5129"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "descriptionField",
+                                "label": "Description",
+                                "labelWidth": "50%"
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "dc3cc91d-4f3f-4e53-9463-5fab6cfab463"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "buyItemButton",
+                                "text": "Buy Now"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "58ec3d76-e3f2-4106-b6fa-b44897175a02"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

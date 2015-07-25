@@ -1,0 +1,71 @@
+2015-07-25 10:23:59.115 StripeCheckoutSample[23627:1163370] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Data/Application/1B2644EA-8F72-4F00-AD67-7901F8D0AB70/Library/Cookies/Cookies.binarycookies
+2015-07-25 10:23:59.375 StripeCheckoutSample[23627:1163370] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 10:23:59.376 StripeCheckoutSample[23627:1163370] Multi-tasking -> Device: YES, App: YES
+2015-07-25 10:23:59.388 StripeCheckoutSample[23627:1163370] Unlimited access to network resources
+2015-07-25 10:23:59.399 StripeCheckoutSample[23627:1163370] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-25 10:24:00.271 StripeCheckoutSample[23627:1163370] Resetting plugins due to page load.
+2015-07-25 10:24:00.547 StripeCheckoutSample[23627:1163370] Finished load of: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Bundle/Application/C583D639-F450-46CB-956A-E2097CA34ED8/StripeCheckoutSample.app/www/index.html
+2015-07-25 10:25:38.046 StripeCheckoutSample[24431:1165168] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Data/Application/A8723AFB-D5D0-41CF-95C4-0A28F2F8005F/Library/Cookies/Cookies.binarycookies
+2015-07-25 10:25:38.174 StripeCheckoutSample[24431:1165168] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 10:25:38.174 StripeCheckoutSample[24431:1165168] Multi-tasking -> Device: YES, App: YES
+2015-07-25 10:25:38.176 StripeCheckoutSample[24431:1165168] Unlimited access to network resources
+2015-07-25 10:25:38.178 StripeCheckoutSample[24431:1165168] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-25 10:25:38.469 StripeCheckoutSample[24431:1165168] Resetting plugins due to page load.
+2015-07-25 10:25:38.642 StripeCheckoutSample[24431:1165168] Finished load of: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Bundle/Application/B76570A0-CFA9-49E8-9AD4-6359EDE15267/StripeCheckoutSample.app/www/index.html
+2015-07-25 10:43:40.349 StripeCheckoutSample[25655:1169473] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Data/Application/A3EDF83E-711B-41CA-A8E7-E7ACE9B8AC8F/Library/Cookies/Cookies.binarycookies
+2015-07-25 10:43:40.413 StripeCheckoutSample[25655:1169473] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 10:43:40.414 StripeCheckoutSample[25655:1169473] Multi-tasking -> Device: YES, App: YES
+2015-07-25 10:43:40.415 StripeCheckoutSample[25655:1169473] Unlimited access to network resources
+2015-07-25 10:43:40.417 StripeCheckoutSample[25655:1169473] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-25 10:43:40.696 StripeCheckoutSample[25655:1169473] Resetting plugins due to page load.
+2015-07-25 10:43:40.867 StripeCheckoutSample[25655:1169473] Finished load of: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Bundle/Application/C1E3D1B9-1E9F-4E10-B7AE-32C925A83411/StripeCheckoutSample.app/www/index.html
+2015-07-25 10:46:48.204 StripeCheckoutSample[26554:1171665] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Data/Application/53EF3BC9-2F91-4D00-B5C5-854C443841A3/Library/Cookies/Cookies.binarycookies
+2015-07-25 10:46:48.351 StripeCheckoutSample[26554:1171665] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 10:46:48.351 StripeCheckoutSample[26554:1171665] Multi-tasking -> Device: YES, App: YES
+2015-07-25 10:46:48.353 StripeCheckoutSample[26554:1171665] Unlimited access to network resources
+2015-07-25 10:46:48.356 StripeCheckoutSample[26554:1171665] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-25 10:46:48.759 StripeCheckoutSample[26554:1171665] Resetting plugins due to page load.
+2015-07-25 10:46:48.930 StripeCheckoutSample[26554:1171665] Finished load of: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Bundle/Application/7CDA9AB7-201F-4373-9894-1181A84CBB72/StripeCheckoutSample.app/www/index.html
+2015-07-25 11:00:37.126 StripeCheckoutSample[28217:1177433] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Data/Application/CB054618-0340-4CBB-85B1-19EA089B92DA/Library/Cookies/Cookies.binarycookies
+2015-07-25 11:00:37.254 StripeCheckoutSample[28217:1177433] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 11:00:37.254 StripeCheckoutSample[28217:1177433] Multi-tasking -> Device: YES, App: YES
+2015-07-25 11:00:37.256 StripeCheckoutSample[28217:1177433] Unlimited access to network resources
+2015-07-25 11:00:37.258 StripeCheckoutSample[28217:1177433] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-25 11:00:37.541 StripeCheckoutSample[28217:1177433] Resetting plugins due to page load.
+2015-07-25 11:00:40.614 StripeCheckoutSample[28217:1177433] Finished load of: file:///Users/wesleygauntt/Library/Developer/CoreSimulator/Devices/381EC283-D65F-48C6-AB85-36568CBC79D7/data/Containers/Bundle/Application/06D4E720-D5AA-4575-8880-EDECDD7AD402/StripeCheckoutSample.app/www/index.html
+2015-07-25 11:01:27.068 StripeCheckoutSample[28217:1177433] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
